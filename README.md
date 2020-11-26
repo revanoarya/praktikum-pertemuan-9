@@ -1,5 +1,6 @@
 # praktikum-pertemuan-9
 [![2.png](https://i.postimg.cc/Qdg93HWM/2.png)](https://postimg.cc/pmTXQVCN)
+
 Penjelasan:
 
 a = [1, 3, 5, 7, 9] list a dengan 5 elemen
@@ -21,11 +22,15 @@ x = a + b menggabungkan list B dengan list A
 
 OUTPUT :
 
+
 [![Screenshot-2020-11-26-164253.png](https://i.postimg.cc/tJhZ4TmD/Screenshot-2020-11-26-164253.png)](https://postimg.cc/bSwN6zP2)
 
 
 CODE :
+
+
 [![Screenshot-2020-11-26-171601.png](https://i.postimg.cc/qvkwTWvV/Screenshot-2020-11-26-171601.png)](https://postimg.cc/JG2Z36XP)
+
 
 Penjelasan:
 
