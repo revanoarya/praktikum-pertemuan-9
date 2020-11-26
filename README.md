@@ -1,4 +1,45 @@
 # praktikum-pertemuan-9
+[![2.png](https://i.postimg.cc/Qdg93HWM/2.png)](https://postimg.cc/pmTXQVCN)
+Penjelasan:
+
+a = [1, 3, 5, 7, 9] list a dengan 5 elemen
+Akses list
+
+print(a[2]) menampilkan elemen ke - 3
+print(a[1:3]) mengambil nilai elemen ke 2 sampai elemen ke 4
+print(a[4]) mengambil elemen terakhir
+ubah elemen list
+
+a[3] = 4 mengubah elemen ke 4 dengan nilai lainnya
+a[3:5] = [8, 10] mengubah elemen ke 4 sampai dengan elemen terakhir
+tambah elemen list
+
+b = a [0:2] mengambil 2 bagian dari list pertama (A) dan jadikan list ke 2 (B)
+b.append('halo') menambah list B dengan nilai string
+b.extend([10, 20, 30]) menambah list B dengan 3 nilai
+x = a + b menggabungkan list B dengan list A
+
+OUTPUT :
+
+[![Screenshot-2020-11-26-164253.png](https://i.postimg.cc/tJhZ4TmD/Screenshot-2020-11-26-164253.png)](https://postimg.cc/bSwN6zP2)
+
+
+CODE :
+[![Screenshot-2020-11-26-171601.png](https://i.postimg.cc/qvkwTWvV/Screenshot-2020-11-26-171601.png)](https://postimg.cc/JG2Z36XP)
+
+Penjelasan:
+
+data = [] Membuat list kosong yang nanti akan di isi
+while ulangi =='y': Membuat perulangan dengan variabel ulangi, dimana ketika memilih 'y' maka akan otomatis mengulang pengisian data
+nilai_akhir = (nilai_tugas)*30/100 + (nilai_uts)*35/100 + (nilai_uas)*35/100 Nilai Akhir diambil dari perhitungan 3 komponen nilai (tugas: 30%, uts: 35%, uas: 35%)
+data.append([nama, nim, nilai_tugas, nilai_uts, nilai_uas, int(nilai_akhir)]) Memasukkan variabel input ke dalam list data
+ulangi = (input('tambah data?(y/t)')) Ketika memilih 't' if ulangi == 't': maka cetaklah hasil
+
+OUTPUT :
+[![Screenshot-2020-11-26-171534.png](https://i.postimg.cc/d0h8QFMX/Screenshot-2020-11-26-171534.png)](https://postimg.cc/4KTKwrxb)
+
+FLOWCHART :
+[![4.png](https://i.postimg.cc/j2cWQ30P/4.png)](https://postimg.cc/Lgq6mTs8)
 [![Screenshot-2020-11-26-103325.png](https://i.postimg.cc/Pf4b6ymV/Screenshot-2020-11-26-103325.png)](https://postimg.cc/JtsB0bYj)
 [![Screenshot-2020-11-26-103443.png](https://i.postimg.cc/7ZvR3DSr/Screenshot-2020-11-26-103443.png)](https://postimg.cc/dLBnFbW5)
 [![Screenshot-2020-11-26-103527.png](https://i.postimg.cc/Hnq694c9/Screenshot-2020-11-26-103527.png)](https://postimg.cc/SYGLy9Gn)
